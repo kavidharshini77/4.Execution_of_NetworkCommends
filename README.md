@@ -28,7 +28,7 @@ This commands includes
 
 ## Program
 ## Server.py
-import socket
+```import socket
 import subprocess
 
 host = "127.0.0.1"
@@ -57,7 +57,9 @@ while True:
 
 conn.close()
 server.close()
+```
 ## Client.py
+```
 import socket
 
 host = "127.0.0.1"
@@ -80,6 +82,7 @@ while True:
     print("\nPing Result:\n", result)
 
 client.close()
+```
 
 ## Output
 <img width="805" height="80" alt="image" src="https://github.com/user-attachments/assets/405034ba-ae8e-489d-93bd-aa32a9276e6f" />
